@@ -1,0 +1,128 @@
+{
+  "users": [
+    {
+      "email": "none965500@gmail.com",
+      "password": "luffy",
+      "entries": [
+        {
+          "mood": "😴 Tired",
+          "sleep": "7",
+          "stress": "10",
+          "mentalScore": 50,
+          "date": "2026-03-02T04:53:08.285Z"
+        },
+        {
+          "mood": "😊 Happy",
+          "sleep": "4",
+          "stress": "4",
+          "mentalScore": 70,
+          "date": "2026-03-02T05:13:26.124Z"
+        },
+        {
+          "mood": "😊 Happy",
+          "sleep": "4",
+          "stress": "4",
+          "mentalScore": 70,
+          "date": "2026-03-02T05:13:28.074Z"
+        }
+      ],
+      "journals": [
+        {
+          "text": "none\n",
+          "predictedMood": "Tired",
+          "date": "2026-03-02T04:53:34.516Z"
+        }
+      ]
+    },
+    {
+      "email": "mk",
+      "password": "$2b$10$VdEWnHwsWxJ4ekNq3EP4oeKc8AyOfct07jnxWB2JLxZr6pBIVmkGW",
+      "entries": [
+        {
+          "mood": "😊 Happy",
+          "sleep": "3",
+          "stress": "10",
+          "date": "2026-03-02T05:24:19.492Z"
+        },
+        {
+          "mood": "😊 Happy",
+          "sleep": "8",
+          "stress": "4",
+          "date": "2026-03-02T06:00:31.824Z"
+        },
+        {
+          "mood": "😔 Sad",
+          "sleep": "6",
+          "stress": "5",
+          "date": "2026-03-02T06:28:10.974Z"
+        },
+        {
+          "mood": "😊 Happy",
+          "sleep": "8",
+          "stress": "3",
+          "date": "2026-03-02T06:36:35.270Z"
+        },
+        {
+          "mood": "😊 Happy",
+          "sleep": "3",
+          "stress": "4",
+          "date": "2026-03-02T06:37:25.957Z"
+        },
+        {
+          "mood": "😊 Happy",
+          "sleep": "2",
+          "stress": "10",
+          "date": "2026-03-02T07:19:55.661Z"
+        },
+        {
+          "mood": "😊 Happy",
+          "sleep": "8",
+          "stress": "3",
+          "date": "2026-03-02T07:30:25.967Z"
+        },
+        {
+          "mood": "😴 Tired",
+          "sleep": "3",
+          "stress": "3",
+          "date": "2026-03-02T07:37:09.453Z"
+        },
+        {
+          "mood": "😡 Angry",
+          "sleep": "5",
+          "stress": "7",
+          "date": "2026-03-02T07:40:59.757Z"
+        }
+      ],
+      "journals": [
+        {
+          "text": "none",
+          "date": "2026-03-02T05:24:38.231Z"
+        },
+        {
+          "text": "mmmmmmmm",
+          "date": "2026-03-02T06:20:48.476Z"
+        },
+        {
+          "text": "i am happy",
+          "date": "2026-03-02T06:27:36.791Z"
+        },
+        {
+          "text": "i am sad",
+          "date": "2026-03-02T06:35:03.283Z"
+        },
+        {
+          "text": "sad",
+          "date": "2026-03-02T07:20:34.288Z"
+        },
+        {
+          "text": "happy",
+          "date": "2026-03-02T07:30:41.367Z"
+        },
+        {
+          "text": "i am fed up",
+          "date": "2026-03-02T07:39:22.488Z"
+        }
+      ]
+    }
+  ]
+}

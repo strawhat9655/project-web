@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>📊 AI Mental Health Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+
+<h1>📊 AI Mental Health Dashboard</h1>
+
+<div class="card">
+<h2>😊 Select Mood</h2>
+
+<div class="mood-container">
+<button class="mood-btn" onclick="setMood(this,'😊 Happy')">😊</button>
+<button class="mood-btn" onclick="setMood(this,'😔 Sad')">😔</button>
+<button class="mood-btn" onclick="setMood(this,'😡 Angry')">😡</button>
+<button class="mood-btn" onclick="setMood(this,'😴 Tired')">😴</button>
+</div>
+<div class="card">
+    <h2>💡 AI Recommendations</h2>
+    <div id="recommendationBox">
+        <p>Select your mood to see personalized suggestions...</p>
+    </div>
+</div>
+<div id="musicContainer"></div>
+
+</div>
+
+<div class="card">
+<h2>🌙 Sleep Hours</h2>
+<input type="number" id="sleep">
+</div>
+
+<div class="card">
+<h2>😰 Stress Level</h2>
+<input type="number" id="stress">
+</div>
+
+<button onclick="saveEntry()">💾 Save Entry</button>
+
+<!-- 📊 Sleep Graph -->
+<div class="card">
+<h2>📈 Sleep Trend</h2>
+<canvas id="sleepChart"></canvas>
+</div>
+
+<!-- 📊 Stress Graph -->
+<div class="card">
+<h2>📈 Stress Trend</h2>
+<canvas id="stressChart"></canvas>
+</div>
+
+<div class="card">
+<button onclick="window.location.href='journal.html'">
+📖 Open Journal
+</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

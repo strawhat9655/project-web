@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📖 AI Journal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<h1>📖 AI Smart Journal</h1>
+
+<div class="card">
+    <h2>✍️ Write Today's Thoughts</h2>
+    <textarea id="journalText" rows="6" placeholder="Write your thoughts here..."></textarea>
+    <br><br>
+    <button onclick="saveJournal()">💾 Save Journal</button>
+    <p id="journalStatus"></p>
+</div>
+
+<div class="card">
+    <h2>🤖 AI Mood Prediction</h2>
+    <h3 id="aiPredictionResult">
+        Your predicted mood will appear here...
+    </h3>
+</div>
+
+<div class="chart-box">
+    <h2>📊 Journal Emotion Distribution</h2>
+    <canvas id="journalEmotionChart"></canvas>
+</div>
+
+<div class="card">
+    <h2>📚 Previous Journals</h2>
+    <div id="journalList" style="text-align:left;"></div>
+</div>
+
+<div class="card">
+    <button onclick="window.location.href='dashboard.html'">
+        ⬅ Back to Dashboard
+    </button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
