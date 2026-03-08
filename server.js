@@ -5,7 +5,9 @@ const path = require("path");
 const bcrypt = require("bcrypt");
 
 const app = express();
-const PORT = 3001;
+
+/* Railway provides PORT automatically */
+const PORT = process.env.PORT || 3001;
 
 app.use(cors());
 app.use(express.json());
@@ -13,6 +15,7 @@ app.use(express.static(__dirname));
 
 const DATA_FILE = path.join(__dirname, "data.json");
 
+/* Create data file if not exists */
 if (!fs.existsSync(DATA_FILE)) {
     fs.writeFileSync(DATA_FILE, JSON.stringify({ users: [] }, null, 2));
 }
@@ -111,6 +114,7 @@ app.get("/getJournals/:email", (req, res) => {
     res.json(user ? user.journals : []);
 });
 
+/* Start Server */
 app.listen(PORT, () => {
-    console.log(`🚀 Server running at http://localhost:${PORT}`);
+    console.log(`🚀 Server running on port ${PORT}`);
 });
